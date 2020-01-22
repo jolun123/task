@@ -1,0 +1,1 @@
+vue中的key具有唯一性，vue在比对Vdom和真实dom时，key可以加快diff算法的效率，从而提高组件的渲染速度。
