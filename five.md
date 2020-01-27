@@ -1,0 +1,1 @@
+mvc,mvp,mvvm之前相同的是m，v，m是model数据模型，v也就是view视图层。不同点在于，mvc中由controller（控制器）链接m与v，用户直接控制c，同时v与m之间又存在一定的的耦合。mvp在mvc的基础上，完全分离了v与m，由presenter链接二个，并且是双向的。v没有主动性，p集中管理。mvvm，viewmodel视图模型，将数据与视图绑定，model变化视图同步更新，大大减少了业务逻辑，简化了代码。
