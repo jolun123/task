@@ -1,0 +1,1 @@
+vue组件间通信方式，1，props父传子与$emit 通过事件函数传参，子传父  2,$bus事件总线，$emit,$on派发与监听。3，provide与inject，依赖注入，可多级通信。4，$children与$parent,父子通信。5，$root访问根组件 6、vuex状态管理。
